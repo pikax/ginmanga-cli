@@ -1,8 +1,8 @@
 {
-  "name": "ginmanga-node",
+  "name": "ginmanga-cli",
   "version": "1.0.0",
   "main": "lib/index.js",
-  "repository": "https://github.com/pikax/ginmanga-node.git",
+  "repository": "https://github.com/pikax/ginmanga-cli",
   "author": "pikax",
   "license": "MIT",
   "keywords": [
@@ -32,7 +32,7 @@
     "sourceMap": false,
     "instrument": false
   },
-  "homepage": "https://github.com/pikax/gin-downloader#readme",
+  "homepage": "https://github.com/pikax/ginmanga-cli#readme",
   "devDependencies": {
     "babel-core": "^6.23.1",
     "babel-plugin-istanbul": "^4.0.0",
