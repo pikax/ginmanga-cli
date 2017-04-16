@@ -1,5 +1,4 @@
 {
-
   "name": "ginmanga-cli",
   "version": "0.3.0",
   "main": "lib/index.js",
@@ -59,7 +58,7 @@
     "commander": "^2.9.0",
     "debug": "^2.6.3",
     "fs-extra": "^2.0.0",
-    "gin-downloader": "https://github.com/pikax/gin-downloader",
+    "gin-downloader": "^1.0.0",
     "hyperquest": "^2.1.2",
     "progress": "^2.0.0"
   }
