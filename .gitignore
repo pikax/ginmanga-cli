@@ -3,6 +3,8 @@
 watch
 #visualstudio
 .vs
+src/**/*.js
+src/**/*.js.map
 
 ### Node template
 # Logs
