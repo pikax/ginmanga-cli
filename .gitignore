@@ -3,6 +3,7 @@
 watch
 #visualstudio
 .vs
+src/**/*d.ts
 src/**/*.js
 src/**/*.js.map
 

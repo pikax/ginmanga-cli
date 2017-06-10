@@ -8,12 +8,14 @@ const pjson = require('../package.json');
 import * as gin from 'gin-downloader';
 var hyperquest = require("hyperquest");
 
+
+
 import {createWriteStream,ensureFile} from 'fs-extra';
 
 import {resolve} from 'path';
 
 import * as program from "commander";
-import {ImageSource} from "gin-downloader/lib/declarations";
+
 
 let supported = Object.keys(gin);
 let site = gin.mangahere;
@@ -110,7 +112,7 @@ program.command("download <manga> <chap>")
     });
 
 
-    let tkImgs = Array<Promise<{folder:string, imgs: Promise<ImageSource>[]}>>();
+    let tkImgs = Array<Promise<{folder:string, imgs: Promise<{src:string, name:string}>[]}>>();
 
 
     for (let c of chaps) {

@@ -1,5 +1,5 @@
 # ginmanga-cli
-Node cli manga downloader.
+Manga downloader, uses [gin-downloader](https://github.com/pikax/gin-downloader) as a engine.
 
 
 ``` bash
@@ -12,6 +12,7 @@ npm install -g ginmanga-cli
 - [x] MangaPanda [*mangapanda*]
 - [x] MangaHere [*mangahere*]
 - [x] KissManga [*kissmanga*]
+- [x] Batoto [*batoto*]
 
 
 **Usage**
